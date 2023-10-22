@@ -1,0 +1,43 @@
+1. camunda 7 > create camunda project  2 ways > 
+	1st is use camunda bpm initilzer 
+	https://start.camunda.com/
+
+2. camunda 8
+comunda modeler -> 2 way modeler can be managed based on your requirement(either in local manchinor or on cloud as shown below)
+
+Self Managed > it is self managed moduler , it means it is installed in local manchin from where you operate it. 
+	Camunda Modeleter
+	Docker and kubernetes
+
+
+Saas Camunda > other way is to use from cloud
+	Camunda web modelser
+	saas cloud cluster project
+
+
+3. we have 1 project "" > docker-compose file > run this and it will start all the required compnenet for camunda for self managed
+
+git clone https://github.com/pinussilvestrus/camunda-modeler-excel-import-plugin.git
+
+
+
+npm install -g @angular/cli@14.1.0
+
+zeebe.client.cloud.region=ont-1
+zeebe.client.cloud.clusterId=a7c2cc56-76bc-402c-9562-aaa0ec41b838
+zeebe.client.cloud.clientId=_TwU_IISV6FMTkUyAkVRcq_-T-KB_5NC
+zeebe.client.cloud.clientSecret=kYrxbVWQgBiYWu0hn_e1FW.~kVA4iKyNnbIYi3diLYsFKeWQHCMj_~FL7E-miZ9I
+
+
+
+zeebe client > this will be added in spring boot and then it will call zeebe server.
+zeebe client > https://docs.camunda.io/docs/apis-tools/java-client/
+
+https://github.com/camunda/camunda-platform > from this git url, u can download project and start the docker-compose file , this will start all the required component
+of camunda and now you can chck in docker desktop and check thier respoetive port over thiere. DO NOTE THAT this is required only in case of self managed camunda servi9ce.
+if u r using camunda web console , then this is not required. And you want to use camunda moduler as a soef managecd, then youi can dowlonad from google,, just search for 
+"camundaa modeler download" and download that.
+
+camunda web login method > just login with kunal.talwadiya@gmail.com id by selecting github at time of sign in , we have already related files over there.
+
+
